@@ -5,12 +5,12 @@
 - NPM
 - Databases architecture discussion
 - CRUD the DB
-- A bit about express
+- A bit about Express
 
 ## Activities
 
 - Review over mongo queries
-- Develop a basic website using express
+- Develop a basic website using Express
 
 # Today - day w4d3
 
