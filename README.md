@@ -15,12 +15,12 @@
 # Today - day w4d3
 
 - Talk about templating under Express web server: develop using layouts and partials
-- Talk about mongoose (ODM) - Schemas, models, documents
+- Talk about Mongoose (ODM) - Schemas, models, documents
 
 ## Activities
 
 - Ironbeers - request and display beers using a wrapper in the front end using simple promises
-- CRUD and modelise recipes using mongoose
+- CRUD and modelise recipes using Mongoose
 
 # Goals
 
