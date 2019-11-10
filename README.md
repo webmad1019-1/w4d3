@@ -2,10 +2,10 @@
 
 # Yesterday - day w4d2
 
-- Talk about NPM
-- Talk about nosql vs sql databases
-- Basic CRUD operations
-- Basics about web servers and basic implementation of express
+- NPM
+- Databases architecture discussion
+- CRUD the DB
+- A bit about express
 
 ## Activities
 
@@ -14,20 +14,22 @@
 
 # Today - day w4d3
 
-- Talk about templating under Express
+- Talk about templating under Express web server: develop using layouts and partials
 - Talk about mongoose (ODM) - Schemas, models, documents
 
 ## Activities
 
-- Ironbeers
+- Ironbeers - request and display beers using a wrapper in the front end using simple promises
 - CRUD and modelise recipes using mongoose
 
 # Goals
 
-- Understand HTML produced in the backend using templates
-- Learn how to query mongoose easily and in an standardised way
+- Learn how to create reusable pieces of HTML from the backend
+- Learn how to access the mongo database quick and easily
+- Learn how to normalise and plan ahead documents in your DB
+- Communicate for the first time back and front ends.
 
 # Bonus
 
-More on SQL vs Non SQL databases
-https://www.youtube.com/watch?v=ZS_kXvOeQ5Y
+About code componentisation using, for example, React 🤠
+https://medium.com/code-thoughts/componentization-in-react-is-a-piece-of-cake-6bc53c1e4e3
