@@ -24,10 +24,10 @@
 
 # Goals
 
-- Learn how to create reusable pieces of HTML from the backend
+- Learn how to create reusable pieces of HTML from the back end
 - Learn how to access the mongo database quick and easily
 - Learn how to normalise and plan ahead documents in your DB
-- Communicate for the first time back and front ends.
+- Communicate for the first time back and front ends
 
 # Bonus
 
