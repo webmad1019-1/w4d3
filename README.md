@@ -22,6 +22,11 @@
 - Ironbeers - request and display beers using a wrapper in the front end using simple promises
 - CRUD and modelise recipes using Mongoose
 
+# Tomorrow - day w4d4
+
+- More on Express interaction using HTTP Verbs
+- More on Mongoose interaction using Mongoose
+
 # Goals
 
 - Learn how to create reusable pieces of HTML from the back end
