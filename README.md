@@ -22,7 +22,7 @@
 - Ironbeers - request and display beers using a wrapper in the front end using simple promises
 - CRUD and modelise recipes using Mongoose
 
-# Tomorrow - day w4d4
+# Next - day w4d4
 
 - More on Express interaction using HTTP Verbs
 - More on Mongoose interaction using Mongoose
