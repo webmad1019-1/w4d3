@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .important {
+            color: red;
+        }
+        .important::after {
+            margin-left: 5px;
+            content: "£";
+        }
+    </style>
+</head>
+<body>
+    <h1>Nuestra compañera favorita!!</h1>
+    {{#if nameExists}}
+        <h3>Ella es {{name}} y tiene {{age}} años</h3>
+    {{/if}}
+
+    <select>
+        {{#each cities}}
+            <option value="">{{this}}</option>
+        {{/each}}
+    </select>
+
+    {{!-- <select id="citiesWithObjs">
+        {{#each citiesWithObjs}}
+            <option value="{{this.code}}">{{this.name}}</option>
+        {{else}}
+            <option>NO cities!</option>
+        {{/each}}
+    </select> --}}
+
+    {{#if citiesWithObjsExists}}
+    <select id="citiesWithObjs">
+        {{#each citiesWithObjs}}
+            <option value="{{this.code}}">{{@index}} {{this.name}}</option>
+        {{/each}}
+    </select>
+    {{else}}
+    <span class="important">No cities yet!</span>
+    {{/if}}
+
+    {{cities}}
+    <p class="important">Ella gana nada menos que {{salary}}</p>
+
+    <div>
+        {{#with address}}
+        <p>Street: {{street}}</p>
+        <p>City: {{city}}</p>
+        {{/with}}
+    </div>
+    <script>
+        // aqui programas a placer :)
+    </script>
+    {{!-- this lives in the public folder --}}
+    <script src="js/myScript.js"></script>
+</body>
+</html>
